@@ -4,7 +4,10 @@ angular.module("main",
 
 	   //Inside
 	   "home",
-	   "about" 
+	   "about",
+	   "navigation",
+	   "header",
+	   "footer" 
 
 	 ]);
 

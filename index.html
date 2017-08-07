@@ -3,11 +3,11 @@
 <head>
    
 	<title>Angular 1.6 Routing Explain</title>
-	 <base href="/">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <script src="asset/angular.js"></script> 
-    <script src="asset/angular-route.js"></script>  
+	<!-- <base href="/"> -->
+	<link rel="stylesheet" type="text/css" href="asset/css/style.css">
+	<script src="asset/js/angular.js"></script> 
+    <script src="asset/js/angular-route.js"></script>  
+	  
 	   
 	<script src="js/app/app.js"></script> 
 	<script src="js/app/app.config.js"></script>
@@ -17,11 +17,23 @@
 	
     <script src="js/About/about.module.js"></script>
 	<script src="js/About/about.component.js"></script>
-	
-</head>
-<body> 
- 
-  <div ng-view class="container"></div> 
 
+	<script src="js/Navigation/navigation.module.js"></script>
+	<script src="js/Navigation/navigation.component.js"></script>
+
+	<script src="js/header/header.module.js"></script>
+	<script src="js/header/header.component.js"></script>
+
+	<script src="js/footer/footer.module.js"></script>
+	<script src="js/footer/footer.component.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+</head>
+<body>
+    <div id="main-container"> 
+	
+		<div ng-view class="">
+		   
+		</div> 
+    </div>
 </body>
 </html>
